@@ -71,7 +71,7 @@ namespace Parser.connection
         {
             opcGroups.SetConditions(Encoding.UTF8.GetString(data));
         }
-        public async void ReceiveData(OpcGroup groups, int size = 1024)
+        public void ReceiveData(OpcGroup groups, int size = 1024)
         {
             this.opcGroups = groups;
 

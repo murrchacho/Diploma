@@ -61,6 +61,7 @@ namespace Parser
             {
                 Console.WriteLine("Не могу получить значения для контура {0}", GroupName);
             }
+
             Console.WriteLine('\n');
 
             return readedValues;

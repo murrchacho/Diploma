@@ -30,6 +30,7 @@ namespace Parser
                 string groupNumber = name.Substring(firstIndex + 1, lastIndex - firstIndex - 1);
                 int number;
                 int pointPosition = lastIndex + 1;
+
                 if (int.TryParse(groupNumber, out number) && name.Length > pointPosition && name[pointPosition] == '.')
                 {
                     return ($"contour_{number}", number);

@@ -141,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="connection\SocketConnection.cs" />
+    <Compile Include="parser\Calculations.cs" />
     <Compile Include="parser\Condition.cs" />
     <Compile Include="parser\Parser.cs" />
     <Compile Include="src\CustomOpcDaGroup.cs" />
