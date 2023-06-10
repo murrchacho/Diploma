@@ -25,5 +25,4 @@ class Generator:
             end = anomaly[anomalyRange].get('end') 
 
         result = round(uniform(begin, end), 2)
-
         return result
